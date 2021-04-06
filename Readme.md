@@ -5,7 +5,7 @@ A report based on data using tableau for data visualisation
 ## Get started
 
  Clone this repo in a folder
-- Git clone https://github.com/Khushboo1299/Suez_Canal_Analysis.git .
+- Git clone https://github.com/PrashantYadav2304/Tableau_Suez.git .
 
  Open index.html in broweser or Open the folder in a code editor like VS Code
 - Download live server in extension in VS Code.
