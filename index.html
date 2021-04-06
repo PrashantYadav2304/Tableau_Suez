@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+     <!-- Compiled and minified CSS  for materialize-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+            
+    <title>Suez canal transit and analysis</title>
+</head>
+  <body class="primary">
+    <div >
+      <h1 class="text">The Suez Canal Transit and Loss Analysis</h1>
+      <div class="row ">
+        <div class="col s12 m6 container">
+          <!--Card containg info about suez canal block-->
+          <div class="card">
+            <div class="card-image">
+              <img src="https://static01.nyt.com/newsgraphics/2021/03/25/suez-evergreen-locator/e4ab50a48889496e6b59b81da06f7b756fe3af75/evergreen-locator-Artboard_1.jpg">
+              <span class="card-title">Suez Canal</span>
+            </div>
+            <div class="card-content">
+              <p> <b> The Suez Canal</b>  was blocked for six days in March 2021 after the 
+              accidental grounding of Ever Given, a Golden-class container ship,
+              on the morning of 23 March. The 400-metre-long (1,300 ft) vessel was buffeted by strong winds,
+              and ended up wedging itself across the waterway, bow and stern stuck in the canal bank, 
+              which prevented other vessels from passing through that part of the Suez canal.
+              The obstruction was south of the section of the canal that has two channels, 
+              so there was no way for other ships to bypass Ever Given.
+              </p>
+              <p>The canal is one of the world's busiest trade routes, and the obstruction had a significant impact on trade between Europe and Asia and the Middle East. On 28 March, at least 369 ships
+              were queuing to pass through the canal. This prevented $9.6 billion worth of 
+              tradentributed to 2% of Egypt's GDP, according to Moody's.</p>     
+            </div>
+            <div class="card-action">
+              <a href="https://en.wikipedia.org/wiki/2021_Suez_Canal_obstruction">wikipedia</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col s12 m6 container">
+          <!--Card containg info about suez canal history-->
+          <div class="card">
+            <div class="card-image">
+              <img src="./images/suezim.png">
+              <span class="card-title">Suez Canal</span>
+            </div>
+            <div class="card-content">
+              <p><b>The Suez Canal </b>(Arabic: قَنَاةُ السُّوَيْسِ‎, Qanātu s-Suways)  is an artificial sea-level waterway in Egypt, connecting the Mediterranean
+              Sea to the Red Sea through the Isthmus of Suez and dividing Africa and Asia.
+              1869 waterway first opened, 2015  canal expanded to include a 22 mile parallel channels which is 
+              120 miles long, 205m wide, 24m deep.
+              It offers vessels a direct route between the North Atlantic and northern Indian oceans via the Mediterranean Sea and the Red Sea, avoiding the South 
+              Atlantic and southern Indian oceans and reducing the journey distance from the Arabian Sea to London by approximately 8,900 kilometres 
+              (5,500 mi).The canal had an immediate and dramatic effect on world trade. Combined with the American transcontinental railroad completed six months earlier, it allowed the world to be circled in record time. 
+              It played an important role in increasing European colonization of Africa.
+              The European Mediterranean countries in particular benefited economically from the Suez Canal, as they now had much faster connections to Asia and East Africa than the North and West European maritime trading nations such as Great Britain, the Netherlands or Germany.</p>
+            </div>
+            <div class="card-action">
+              <a href="https://en.wikipedia.org/wiki/Suez_Canal">wikipedia</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Fetching data from Tableau pulic for ship transits-->
+    <div class='tableauPlaceholder' id='viz1617359694301' style='position: relative'>
+      <noscript>
+        <a href='#'><img alt='Ship transits through Suez canal with vessel type ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Sh&#47;Shiptransitthroughsuezcanalbyvesseltype_16173438012650&#47;Sheet1&#47;1_rss.png' style='border: none' />
+        </a>
+      </noscript>
+      <object class='tableauViz'  style='display:none;'>
+        <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+        <param name='embed_code_version' value='3' /> <param name='site_root' value='' />
+        <param name='name' value='Shiptransitthroughsuezcanalbyvesseltype_16173438012650&#47;Sheet1' />
+        <param name='tabs' value='no' /><param name='toolbar' value='yes' />
+        <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Sh&#47;Shiptransitthroughsuezcanalbyvesseltype_16173438012650&#47;Sheet1&#47;1.png' /> 
+        <param name='animate_transition' value='yes' />
+        <param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' />
+        <param name='display_overlay' value='yes' /><param name='display_count' value='yes' />
+        <param name='language' value='en' />
+      </object>
+    </div>  
+
+    <script type='text/javascript'> var divElement = document.getElementById('viz1617359694301');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                   
+             vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+    </script>  
+
+    <div class="row pt">
+      <div class="col s12 m6 container">
+
+        <!--Fetching data of countries and loss analytics from Tableau public-->
+
+        <div class='tableauPlaceholder' id='viz1617360539653' style='position: relative'>
+          <noscript>
+            <a href='#'><img alt='Dashboard 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Tr&#47;Tradeloss_16173587214270&#47;Dashboard1&#47;1_rss.png' style='border: none' />
+            </a>
+          </noscript>
+          <object class='tableauViz'  style='display:none;'>
+            <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+            <param name='embed_code_version' value='3' /> <param name='site_root' value='' />
+            <param name='name' value='Tradeloss_16173587214270&#47;Dashboard1' />
+            <param name='tabs' value='no' /><param name='toolbar' value='yes' />
+            <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Tr&#47;Tradeloss_16173587214270&#47;Dashboard1&#47;1.png' />
+            <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' />
+            <param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' />
+            <param name='display_count' value='yes' />
+            <param name='language' value='en' />
+          </object>
+        </div> 
+
+        <script type='text/javascript'> var divElement = document.getElementById('viz1617360539653');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.minWidth='420px';vizElement.style.maxWidth='650px';vizElement.style.width='100%';vizElement.style.minHeight='587px';vizElement.style.maxHeight='887px';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.minWidth='420px';vizElement.style.maxWidth='650px';vizElement.style.width='100%';vizElement.style.minHeight='587px';vizElement.style.maxHeight='887px';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else { vizElement.style.width='100%';vizElement.style.height='727px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);        
+        </script>
+      </div>
+       
+      <!--Info of alternate ways -->
+      <div class="col s12 m6 container">
+        <div class="card">
+          <div class="card-image">
+            <img height="538px" src="https://ichef.bbci.co.uk/news/976/cpsprodpb/708C/production/_117721882_suez_taiwan_netherlands_shipping_routes_640map-nc.png">
+            <span class="card-title">Suez Canal</span>
+          </div>
+          <div class="card-content">
+            <p>The alternative ways to suez canal are very expensive like the goods can be shipped by air but it will cost 3 times of the total cost and will not be suitable for transporation, this can be used for rich goods in emergency conditions.</p>
+            <p>The another option by water is going through Cape of Good Hope by taking a round through whole Africa which is nearly 6500kms longer than suez canal route and also takes 8 more days in one way trip. Which is expensive as well as time consuming.</p>    
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!--Impact and solution analysis-->
+  <div class="card">
+    <h3 class="shift pt">Top 10 Industries most impacted by suez canal blockage -</h3>
+    <div class="">
+      <div class="shift">
+        <li>Grocery Stores</li>
+        <li>Department Stores</li>
+        <li>Auto and Home Supply Stores</li>
+        <li>Hardware Stores</li>
+        <li>Surgical and Medical Equipment Supply</li>
+        <li>Plumbing, Heating and Air conditioning</li>
+        <li>Semiconductors</li>
+        <li>General warehousing and Storage</li>
+        <li>Trucking</li>
+        <li>Sporting Goods</li>
+      </div>
+    </div>
+    <h3 class="shift">Learnings from the Incident</h3>
+    <div class="shift">
+      <p>As we can see the huge losses in every working hour due to blockage of supply chain, 
+      preparation must be done with data driven solution to reduce losses. In the near-term, it is mission-critical that business leaders complete an assessment of their tier 1, 
+      critical suppliers to determine if any suppliers are located in the impacted region—causing a single point of failure to a company’s supply chain. 
+      A determination can then be made to work with alternative suppliers in non-impacted regions of the world, 
+      engaging them to offset the delays of suppliers in the impacted region</p>
+      <p>In today’s ever-changing world, it is not enough to simply onboard vendors and complete annual health and due diligence assessments on them. 
+      Companies must develop a data-driven risk-based assessment process to identify and continuously monitor a variety of risks that could impact the productivity of their supply chain—creating a more flexible and agile network that can quickly pivot in any circumstance or during any unexpected event.</p>
+    </div>
+  </div>
+</body>
+
+</html>
+

@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
+  .primary {
+     background-color:#BFCDD9;
+  }
+  .text{
+      text-align: center;
+      color: black;
+      font-weight: bold;
+  }
+  .shift{
+      padding-right: 30px;
+      padding-left: 30px;
+      padding-bottom: 30px;
+  }
+  .pt{
+      padding-top: 30px;
+  }
+  
